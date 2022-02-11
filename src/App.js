@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Layout, Menu, Button } from "antd";
+import { Layout, Menu } from "antd";
 
 import Salons from "./Salons";
 const { Header, Footer, Content } = Layout;
