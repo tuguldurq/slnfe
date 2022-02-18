@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Row, Col, Card } from "antd";
+
 class Salons extends Component{
 
     render(){

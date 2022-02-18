@@ -7,6 +7,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.18.6",
+    "jest": "^27.5.1",
     "less": "^4.1.2",
     "less-loader": "^7.3.0",
     "react": "^17.0.2",
@@ -17,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest --forceExit",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
