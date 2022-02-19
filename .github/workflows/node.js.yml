@@ -27,5 +27,18 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
+
+    - name: build and run npm
     - run: npm run build --if-present
+
+    - name: Test npm
     - run: npm test
+
+    - name: Build and Push docker image
+    - uses: docker/build-push-action@v2.9.0
+    - with:
+        image: tuguldurq/salon-front
+        registry: docker.io
+        username: ${{ secrects.DOCKER_USERNAME }}
+        password: ${{ secrects.DOCKER_PASSWORD }}
+
