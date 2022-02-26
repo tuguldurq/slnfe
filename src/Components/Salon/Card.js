@@ -1,25 +1,24 @@
+import React, { Component } from "react";
 import { Card, Avatar } from "antd";
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
 
 const{Meta} = Card;
 
-function SalonCard(){
-    return (
-        <Card 
-            cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>} 
-            actions={[
-                <SettingOutlined key="setting" />,
-                <EditOutlined key="edit" />,
-                <EllipsisOutlined key="ellipsis" />,
-              ]}>
-                <Meta
-                    avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-                    title="Card title"
-                    description="This is the description"
-                    >
-                </Meta>
-        </Card>
-    )
+class SalonCard extends Component{
+    render(){
+        return (
+            <Card 
+                cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>} 
+                actions={[
+                    <SettingOutlined key="setting" />,
+                    <EditOutlined key="edit" />,
+                    <EllipsisOutlined key="ellipsis" />,
+                  ]}>
+                Card title
+
+            </Card>
+        )
+    }
 }
 
 export default SalonCard;

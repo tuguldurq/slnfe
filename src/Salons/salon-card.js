@@ -8,15 +8,16 @@ const style = {
 
 function SalonList(props){
     return (
-       <Row gutter={[48, 30]} justify="space-around" style={style}>
-           {props.salons.map(element => {
-                return (
-                    <Col sm={{span:6}} xs={24}>
-                        <SalonCard></SalonCard>
-                    </Col>
-                )
-           })}
-       </Row>
+       <>
+       <div className="ant-row ant-row-space-around">
+            Cards
+           {props.salons.map((element, i) => 
+                <Col sm={{span:6}} xs={24} key={i}>
+                    <SalonCard></SalonCard>
+                </Col>
+           )}
+       </div>
+       </>
     );
 }
 

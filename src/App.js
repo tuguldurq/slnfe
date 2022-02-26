@@ -29,12 +29,13 @@ class App extends Component {
       salons: salonList
     })
   }
-  
 
   render(){
     return (
       <>
-        <Header/>
+        <Header>
+          Beauties
+        </Header>
           <Content>
             <SalonList salons={this.state.salons}></SalonList>
           </Content>
