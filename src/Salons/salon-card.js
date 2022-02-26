@@ -11,7 +11,7 @@ function SalonList(props){
        <Row gutter={[48, 30]} justify="space-around" style={style}>
            {props.salons.map(element => {
                 return (
-                    <Col sm={{span:6}} sm={6} xs={24}>
+                    <Col sm={{span:6}} xs={24}>
                         <SalonCard></SalonCard>
                     </Col>
                 )
