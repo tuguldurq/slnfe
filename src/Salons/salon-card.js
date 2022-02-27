@@ -1,10 +1,5 @@
-import { Row, Col } from "antd";
+import { Col } from "antd";
 import SalonCard from "../Components/Salon/Card";
-
-const style = {
-    padding: "50px 200px",
-    margin:0
-};
 
 function SalonList(props){
     return (
