@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import SalonCard from './Card';
 
 test('Renders learn react link', () => {
-  render(<App/>);
-  const linkElement = screen.getByText(/Beauties/);
+  render(<SalonCard/>);
+  const linkElement = screen.getByText(/Card title/);
   expect(linkElement).toMatchSnapshot();
 });
