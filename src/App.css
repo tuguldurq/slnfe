@@ -1,4 +1,15 @@
-.swipeable-list-item__content{
-  height: 30px !important;
+@import url('./assets/css/utilities.css');
+.card {
+  border-radius: 15px;
+}
+.card img.cover{
+  border-radius: 15px 15px 0 0;
+}
 
+.text-center{
+  text-align: center;
+}
+
+.bg-img{
+  width: 700px;
 }
