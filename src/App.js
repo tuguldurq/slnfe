@@ -43,7 +43,7 @@ class App extends Component {
               <h3>Hello</h3>
             </Col>
             <Col xs={24} sm={12}>
-              <img src={bg} className="bg-img"/>
+              <img src={bg} className="bg-img" alt="banner"/>
             </Col>
           </Row>
             <SalonList salons={this.state.salons}></SalonList>
