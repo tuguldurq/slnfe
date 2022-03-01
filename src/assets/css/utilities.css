@@ -5,3 +5,14 @@
 .bg-white{
     background-color: #fff;
 }
+.ml-auto{
+    margin-left: auto;
+}
+
+.m-4{
+    margin: 0 1.5rem !important;
+}
+
+.mb-5{
+    margin-bottom: 3rem;
+}

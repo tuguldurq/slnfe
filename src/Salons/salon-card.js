@@ -1,23 +1,19 @@
 import { Button, Col, Row } from "antd";
 import SalonCard from "../Components/Salon/Card";
-const style = {
-    padding: "50px 200px",
-    margin:0
-};
 
 function SalonList(props){
     return (
        <>
-       <Row gutter={[48, 30]} justify="space-around mt-5" style={style}>
-           {props.salons.map((element, i) => 
-                <Col sm={{span:6}}  xs={24} key={i}>
+        <Row gutter={[48, 16]} justify="center" className="m-4">
+            {props.salons.map((element, i) => 
+                <Col>
                     <SalonCard></SalonCard>
                 </Col>
-           )}
-       </Row>
-       <div className="text-center">
+            )}
+        </Row>
+        <div className="text-center mt-5">
             <Button type="primary" shape="round">See more</Button>
-       </div>
+        </div>
        </>
     );
 }
