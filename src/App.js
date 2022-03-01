@@ -39,7 +39,7 @@ class App extends Component {
         </Header>
           <Content>
           <Row>
-            <Col span={12} className="text-center" style="justify-content:center">
+            <Col span={12} className="text-center">
               <h3>Hello</h3>
             </Col>
             <Col xs={24} sm={12}>
