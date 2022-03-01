@@ -1,4 +1,4 @@
-import { Button, Col, Row, Space } from "antd";
+import { Button, Col, Row } from "antd";
 import SalonCard from "../Components/Salon/Card";
 const style = {
     padding: "50px 200px",
