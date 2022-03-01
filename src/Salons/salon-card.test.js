@@ -14,6 +14,6 @@ const salonList = [
 
 test('Renders learn react link', () => {
   render(<SalonCard  salons={salonList}/>);
-  const a = screen.getByText(/Cards/i);
-  expect(a).toMatchSnapshot();
+  const a = screen.findAllByRole('button');
+  expect(a).toHaveLength(1);
 });

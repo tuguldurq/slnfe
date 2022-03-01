@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { Layout } from "antd";
+import { Layout, Row, Col } from "antd";
 import SalonList from "./Salons/salon-card";
-
+import "./App.css"
+import bg from "./assets/images/bg.png"
 const {Header, Footer, Content} = Layout;
 
 const salonList = [
@@ -33,13 +34,21 @@ class App extends Component {
   render(){
     return (
       <>
-        <Header>
+        <Header className="bg-white">
           Beauties
         </Header>
           <Content>
+          <Row>
+            <Col span={12} className="text-center">
+              <h3>Hello</h3>
+            </Col>
+            <Col xs={24} sm={12}>
+              <img src={bg} className="bg-img" alt="banner"/>
+            </Col>
+          </Row>
             <SalonList salons={this.state.salons}></SalonList>
           </Content>
-        <Footer/>
+        <Footer className="bg-white mt-5"/>
       </>
     );
   }
