@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Navbar, Nav, Row, Col, Container } from "react-bootstrap";
+import { Nav, Row, Col, Container } from "react-bootstrap";
 import SalonList from "./Salons/salon-list";
 import "./App.css"
 import bg from "./assets/images/bg.png"
