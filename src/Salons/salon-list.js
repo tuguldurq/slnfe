@@ -1,19 +1,16 @@
-import { Button, Col, Row } from "antd";
+import { Row, Col } from "react-bootstrap";
 import SalonCard from "../Components/Salon/Card";
 
 function SalonList(props){
     return (
        <>
-        <Row gutter={[48, 16]} justify="center" className="m-4">
+        <Row>
             {props.salons.map((element, i) => 
-                <Col>
+                <Col key={i} sm={3}>
                     <SalonCard></SalonCard>
                 </Col>
             )}
         </Row>
-        <div className="text-center mt-5">
-            <Button type="primary" shape="round">See more</Button>
-        </div>
        </>
     );
 }

@@ -1,8 +1,10 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import App from "./App";
 
 test('Renders learn react link', () => {
-  render(<App/>);
-  const linkElement = screen.getByText(/Beauties/);
-  expect(linkElement).toMatchSnapshot();
+  const component = render(<App/>);
+  const linkElement = component.getByTestId(/salon/i);
+  expect(linkElement.textContent).toBe("Salon");
+
+  screen.debug();
 });
