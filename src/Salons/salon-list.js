@@ -6,7 +6,7 @@ function SalonList(props){
        <>
         <Row>
             {props.salons.map((element, i) => 
-                <Col key={i} sm={3}>
+                <Col key={i} sm={6} lg={3}>
                     <SalonCard></SalonCard>
                 </Col>
             )}
