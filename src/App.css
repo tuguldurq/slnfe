@@ -21,9 +21,6 @@
 .btn-secondary:focus, .btn-outline-secondary:focus, .navbar-toggler:focus, .btn-secondary:active:focus, .btn-outline-secondary:active:focus{
   box-shadow: none;
 }
-.navbar-toggler:active{
-  background-color: aqua;
-}
 .nav-link{
   padding: .2rem 1rem !important;
 }
