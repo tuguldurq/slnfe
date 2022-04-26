@@ -1,10 +1,4 @@
 @import url('./assets/css/utilities.css');
-.card {
-  border-radius: 15px;
-}
-.card img.cover{
-  border-radius: 15px 15px 0 0;
-}
 
 .text-center{
   text-align: center;
@@ -13,9 +7,20 @@
 .bg-img{
   width: 700px;
 }
+.card-img, .card-img-top {
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+.card:hover{
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+  box-shadow: 0 1px 2px -2px #00000029,0 3px 6px #0000001f,0 5px 12px 4px #00000017;
+}
 
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.btn-secondary:focus, .btn-outline-secondary:focus, .navbar-toggler:focus, .btn-secondary:active:focus, .btn-outline-secondary:active:focus{
+  box-shadow: none;
+}
+.nav-link{
+  padding: .2rem 1rem !important;
 }

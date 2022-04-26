@@ -16,3 +16,6 @@
 .mb-5{
     margin-bottom: 3rem;
 }
+.bordered{
+    border-radius: 17px;
+}
