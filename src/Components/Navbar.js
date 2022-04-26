@@ -26,10 +26,10 @@ function PublicNavbar(){
                 <Navbar.Collapse id="navbar">
                     <Nav className="ml-auto p-2">
                     <Nav.Item>
-                        <Nav.Link href="/about-us">About us</Nav.Link>
+                        <Nav.Link>About us</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="/contact">Contact</Nav.Link>
+                        <Nav.Link>Contact</Nav.Link>
                     </Nav.Item>
                     <Nav.Item className="d-none d-lg-block">
                         <Link to="/register"> <Button className="bordered px-4" variant="outline-secondary" size="sm" >Register</Button></Link>

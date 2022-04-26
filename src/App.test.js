@@ -1,8 +1,13 @@
 import { render, screen } from '@testing-library/react';
-import App from "./App";
-
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from './Components/Home';
 test('Renders learn react link', () => {
-  const component = render(<App/>);
+  const el = (<BrowserRouter> 
+                <Routes>
+                  <Route path="/" element={<Home/>}/>
+                </Routes>
+              </BrowserRouter>)
+  const component = render(el);
   const linkElement = component.getByTestId(/salon/i);
   expect(linkElement.textContent).toBe("There are many variations of passages of Lorem Ipsum available");
 
