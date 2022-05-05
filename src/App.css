@@ -1,7 +1,7 @@
 @import url('./assets/css/utilities.css');
 
-.text-center{
-  text-align: center;
+body{
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .bg-img{

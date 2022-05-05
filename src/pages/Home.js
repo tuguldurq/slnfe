@@ -32,18 +32,18 @@ class Home extends Component{
                 <Container>
                     <Row className="mt-md-5">
                         <Col className="d-flex align-items-center">
-                            <h1 data-testid="salon">Онлайнд суурилсан "САЛОН" захиалгын систем</h1>
+                            <h1 data-testid="salon">Онлайн-д суурилсан "САЛОН" захиалгын систем</h1>
                         </Col>
                         <Col className="d-none d-lg-block">
                             <img src={bg} className="bg-img" alt="banner"/>
                         </Col>
                     </Row>
                     <div className="mt-md-5">
-                        <h1 className="text-center my-4">салон</h1>
+                        {/* <h1 className="text-center my-4">САЛОН</h1> */}
                         <SalonList salons={this.state.salons}></SalonList>
                     </div>
                     <div className="text-center my-5">
-                        <Button variant="secondary">Цааш үзэх <i className="bi bi-arrow-right"></i></Button>
+                        <Button variant="secondary">Бүгдийг үзэх <i className="bi bi-arrow-right"></i></Button>
                     </div>
                 </Container>
             </>
