@@ -9,7 +9,7 @@ test('Renders learn react link', () => {
               </BrowserRouter>)
   const component = render(el);
   const linkElement = component.getByTestId(/salon/i);
-  expect(linkElement.textContent).toBe("Онлайнд суурилсан \"САЛОН\" захиалгын систем");
+  expect(linkElement.textContent).toBe("Онлайн-д суурилсан \"САЛОН\" захиалгын систем");
 
   screen.debug();
 });
