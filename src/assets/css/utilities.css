@@ -19,3 +19,7 @@
 .bordered{
     border-radius: 17px;
 }
+a{
+    color: black;
+    text-decoration: none;
+}

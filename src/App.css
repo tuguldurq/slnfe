@@ -24,3 +24,10 @@
 .nav-link{
   padding: .2rem 1rem !important;
 }
+
+.btn-primary {
+  padding: 2px 15px;
+  font-weight: 200;
+  background-color: #FEAF8C;
+  border: none;
+}
