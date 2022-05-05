@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import Home from './Pages/Home';
+import Home from './pages/Home';
 test('Renders learn react link', () => {
   const el = (<BrowserRouter> 
                 <Routes>
