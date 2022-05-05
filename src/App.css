@@ -1,7 +1,7 @@
 @import url('./assets/css/utilities.css');
 
-.text-center{
-  text-align: center;
+body{
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .bg-img{
@@ -23,4 +23,11 @@
 }
 .nav-link{
   padding: .2rem 1rem !important;
+}
+
+.btn-primary {
+  padding: 2px 15px;
+  font-weight: 200;
+  background-color: #FEAF8C;
+  border: none;
 }
