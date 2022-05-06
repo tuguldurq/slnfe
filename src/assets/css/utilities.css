@@ -19,7 +19,11 @@
 .bordered{
     border-radius: 17px;
 }
-a{
+a, a:hover{
     color: black;
     text-decoration: none;
+}
+
+.min-vh-85{
+    height: 85vh !important;
 }
