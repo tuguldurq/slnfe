@@ -1,6 +1,6 @@
 {
-  "homepage": "https://tuguldurq.github.io/slnfe/",
   "name": "salon-front-end",
+  "homepage": "https://tuguldurq.github.io/slnfe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
