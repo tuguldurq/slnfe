@@ -11,7 +11,7 @@ body{
   border-top-left-radius: 15px !important;
   border-top-right-radius: 15px !important;
 }
-.card:hover{
+.salon-card:hover{
   cursor: pointer;
   z-index: 1;
   position: relative;
@@ -44,4 +44,8 @@ body{
 }
 .form-floating>.form-control:focus, .form-floating>.form-control:not(:placeholder-shown){
   height: 55px;
+}
+
+img{
+  width: 100%;
 }

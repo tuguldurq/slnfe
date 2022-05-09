@@ -4,14 +4,14 @@ import bg from "../assets/images/bg.png"
 import SalonList from "../Components/Salon/salon-list";
 
 const salonList = [
-    {name: "LOTUS", image:"", location:"10-р хороолол GOLDEN PARK"},
-    {name: "ГЭГЭЭН", image:"", location:"13-р хороолол Торгоны зам"},
-    {name: "ТАЛСТ", image:"", location:"13-р хороолол"},
-    {name: "ROSEE", image:"", location:"УИД-ээс чанх урагш циркд"},
-    {name: "WELLA", image:"", location:"Гранд плазагийн баруун урд"},
-    {name: "ЦАГААН СУВД", image:"", location:"Олимп хотхон"},
-    {name: "ТУЯАРАХ", image:"", location:"Маршал Таун, 106-р байр"},
-    {name: "MATRIX", image:"", location:"Хүүхдийн Паркийн зүүн талд"},
+    {id: 1, name: "LOTUS", image:"", location:"10-р хороолол GOLDEN PARK"},
+    {id: 2, name: "ГЭГЭЭН", image:"", location:"13-р хороолол Торгоны зам"},
+    {id: 3, name: "ТАЛСТ", image:"", location:"13-р хороолол"},
+    {id: 4, name: "ROSEE", image:"", location:"УИД-ээс чанх урагш циркд"},
+    {id: 5, name: "WELLA", image:"", location:"Гранд плазагийн баруун урд"},
+    {id: 6, name: "ЦАГААН СУВД", image:"", location:"Олимп хотхон"},
+    {id: 7, name: "ТУЯАРАХ", image:"", location:"Маршал Таун, 106-р байр"},
+    {id: 8, name: "MATRIX", image:"", location:"Хүүхдийн Паркийн зүүн талд"},
 ]
   
 class Home extends Component{
